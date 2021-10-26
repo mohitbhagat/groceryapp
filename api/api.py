@@ -4,7 +4,7 @@ import sqlite3
 import json
 import os.path
 
-app = Flask(__name__, static_folder="../build", static_url_path="/")
+app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATABASE_PATH = os.path.join(BASE_DIR, "grocery.db")
