@@ -1,0 +1,55 @@
+.addItem {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+
+  & > * {
+    height: 100%;
+  }
+}
+
+.addItemButton {
+  margin-left: 1vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4797ff;
+  border: none;
+  border-radius: 0.7em; 
+  box-shadow: 0 9px #999;
+  transition-duration: 0.5s;
+  width: 5vw;
+  min-width: 70px;
+
+  &:hover {
+    background-color: #1060c9;
+  }
+
+  &:active {
+    background-color: #1060c9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
+
+.itemName {
+  width: 20vw;
+}
+
+.amount {
+  width: 5vw;
+}
+
+.itemName, .amount {
+  border-radius: 0.3em;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin-right: 0.3vw;
+  margin-left: 0.3vw;
+}

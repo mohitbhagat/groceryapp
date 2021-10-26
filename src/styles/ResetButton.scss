@@ -1,0 +1,30 @@
+.resetListButton {
+  margin: auto;
+  margin-top: 6vh;
+  margin-bottom: 5vh;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #b59c38;
+  border: none;
+  border-radius: 0.7em; 
+  box-shadow: 0 9px #999;
+  transition-duration: 0.5s;
+  width: 5vw;
+  height: 2em;
+  min-width: 70px;
+  min-height: 30px;
+  line-height: 2em;
+
+  &:hover {
+    background-color: #c9a928;
+  }
+
+  &:active {
+    background-color: #c9a928;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS items (
+  id INTEGER PRIMARY KEY,
+  itemName VARCHAR(255) NOT NULL,
+  amount DECIMAL(5, 5),
+  units VARCHAR(10),
+  checked BOOLEAN
+);
