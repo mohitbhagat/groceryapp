@@ -1,9 +1,8 @@
-# Grocery List App
+# Grocery List
 A simple grocery list app made with React + Redux, Flask, and SQLite.
 
-**Getting started:**
+**How to run project:**
 ```
-git clone https://github.com/mohitbhagat/groceryapp.git
 cd groceryapp
 npm install
 cd api
